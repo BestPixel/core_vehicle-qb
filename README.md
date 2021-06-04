@@ -1,5 +1,8 @@
 # core_vehicle-qb
+
 core_vehicle X Gutso | ESX to QBCore Framework converted
+
+There might be some issues, I didn't test it. 
 
 # Read the Instructions Carefully
 
