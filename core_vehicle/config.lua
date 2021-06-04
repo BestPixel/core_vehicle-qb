@@ -385,12 +385,5 @@ Text = {
 
 
 function SendTextMessage(msg)
-
-        SetNotificationTextEntry('STRING')
-        AddTextComponentString(msg)
-        DrawNotification(0,1)
-
-        --EXAMPLE USED IN VIDEO
-        --exports['mythic_notify']:SendAlert('inform', msg)
-
+	QBCore.Functions.Notify(msg)
 end
