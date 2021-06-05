@@ -120,7 +120,7 @@ Citizen.CreateThread(function()
 end)
 
 RegisterNetEvent('QBCore:Client:OnJobUpdate'),
-AddEventHandler('QBCore:Client:OnJobUpdate', function(JobInfo),
+AddEventHandler('QBCore:Client:OnJobUpdate', function(JobInfo)
     job = JobInfo.name
 end)
 
